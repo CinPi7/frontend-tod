@@ -1,0 +1,26 @@
+:root{
+    --bright: #f5f5f5;
+    --lighter-gray: #BEBEBE;
+    --medium-gray: #6F6F6F;
+    --half-dark: #343434;
+    --dark-green: #264d00;
+    --bg: #4d4d4d;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--bg);
+    font-family: Arial, Helvetica, sans-serif;
+    /* max-width: 1440px;
+    margin: 0 auto; */
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    list-style: none;
+	text-decoration: none;
+}

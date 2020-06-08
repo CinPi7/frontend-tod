@@ -1,0 +1,119 @@
+/* MEDIA QUERY FOR FORM */
+/* header */
+@media only screen and (max-width: 770px){
+	header .titulo-header {
+		position: relative;
+		text-align: center;
+		justify-content: justify;
+		margin-left: 5px;
+		margin-bottom: 2em;
+	}
+	header .titulo-header > h1{
+		color: var(--bright);
+		text-transform: uppercase;
+		font-size: 15px;
+	}
+	header .titulo-header > h1 ~ p {
+		font-size: 12px;
+		font-weight: bold;
+		color: var(--bright);
+		padding: 0 7px 7px 7px;
+	}
+	header .flow{
+		margin-top: 7em;
+	}
+}
+/* Slides  */
+@media only screen and (max-width: 700px){
+    .mySlides3{
+        width: 50%;
+        overflow: hidden;
+    }
+    .mySlides2{
+        display: none;
+    }
+    .main-container{
+        display: none;
+    }
+}
+/* Circular  */
+@media only screen and (max-width: 972px){
+	div.second-mainContainer{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 2em 4em 2em 2.5em;
+	}
+	div.second-mainContainer .text h3{
+		display: flex;
+		justify-content: center;
+	}
+}
+@media only screen and (max-width: 420px){
+	div.second-mainContainer{
+		padding: 0;
+	}
+	div.second-mainContainer {
+		padding: 2em 1em 2em 0;
+	}
+	div.second-mainContainer .text p{
+		text-align: center;
+	}
+	div.second-mainContainer img{
+		margin-left: 15px;
+		height: 250px;
+		width: 250px;
+	}
+}
+
+/* Accordion Gallery*/
+@media only screen and (max-width: 420px){
+	div.last-mainContainer div.box-accordion{
+		width: 100%;
+		margin: 0 0 0 1em;
+		padding-right: 2em;
+	}
+}
+
+/* Form */
+@media only screen and (max-width: 740px){
+	.form-box form .field-group{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+		flex: 1;
+	}
+	.form-box form .field{
+		width: 100%;
+		flex: 1;
+	}
+	.form-box form .field-group .field + .field{ 
+		margin-left: 0;
+	}
+	.form-box form fieldset button{
+		margin-left: 37%;
+	}
+}
+@media only screen and (max-width: 560px){
+	.form-box form div.field-group > div.nome{
+		padding-top: 1em;
+	}
+	form-box form .field input, textarea{
+		width: 100%;
+		flex: 1;
+	}
+	.form-box form fieldset button{
+		margin-left: 33%;
+	}
+}
+@media only screen and (max-width: 420px){
+	.form-box form{
+		margin: 0;
+		padding: 1em;
+	}
+	.form-box form fieldset button{
+		margin-left: 30%;
+		margin-bottom: 2em;
+	}
+}

@@ -1,0 +1,76 @@
+/* Header and Top Slide Gallery */
+header .titulo-header{
+	display: flex;
+    flex-direction: column; 
+    align-items: center;
+	margin-top: 1em;
+}
+header .titulo-header h1, p, a{
+	z-index: 1;
+}
+header .titulo-header > h1{
+	color: var(--dark-green);
+	font-size: 30px;
+	text-transform: uppercase;
+	padding: 10px;
+}
+header .titulo-header > h1 ~ p {
+	font-size: 13px;
+	font-weight: bold;
+	color: var(--dark-green);
+}
+header div a{
+	color: var(--half-dark);
+	font-size: 2em;
+	padding: 10px;
+}
+header a:hover{
+	color: var(--bright);
+	text-shadow: 1px 1px 1px var(--half-dark);
+	animation: pulse 2s;
+}
+@keyframes pulse {
+	0%, 100% {
+	  color: var(--bright);
+	}
+	50% {
+	  color: var(--medium-dark);
+	}
+  }
+header div.slide-container div.slide-header{
+	display: none;
+}
+header div.slide-container div.slide-header img{
+	display: flex;
+	width: 100%;
+	height: auto;
+	z-index: -1;
+	margin-top: -9em;
+}
+div.slide-dots span.dot{
+	cursor: pointer;
+	height: 35px;
+	width: 35px;
+	background-color: blanchedalmond;
+	border: 5px solid #262525;
+    border-radius: 50%;
+	transition: background-color 0.6s ease;
+	margin: 0 5px;
+}
+header div.slide-dots span.dot:hover {
+	background-color: var(--dark-green);
+	border: 4px solid blanchedalmond;
+}  
+header div.slide-dots{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 60px;
+	background-color: hsl(0, 0%, 25%);
+	opacity: 0.9;
+	z-index: 1;
+	margin-top: -3.7em;
+	width: 100%;
+	flex-grow: 2;
+}
+

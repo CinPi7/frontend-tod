@@ -1,237 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Teste Front End | Dot </title>
+	<title> Dot </title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- style sheets -->
+	<link rel="stylesheet" type="text/css" href="./public/style/main.css">
+	<link rel="stylesheet" type="text/css" href="./public/style/header.css"> <!-- top-gallery -->
+	<link rel="stylesheet" type="text/css" href="./public/style/slide.css">
+	<link rel="stylesheet" type="text/css" href="./public/style/circular.css">
+	<link rel="stylesheet" type="text/css" href="./public/style/accordion.css">
+	<link rel="stylesheet" type="text/css" href="./public/style/form.css">
+	<link rel="stylesheet" type="text/css" href="./public/style/footer.css">
+	<link rel="stylesheet" type="text/css" href="./public/style/media.css">
+	<!------->
+	
 </head>
 <body>
-	<header>
-		<div class="titulo-header">
-			<h1>Lorem Ipsum</h1>
-			<p>Fusce sed pellentesque sapien, sit amet faucibus dolor.</p>
-			<div><a href="index.html#gallery" class="arrow-go-down">&#8595;</a></div>
+
+<!-- Header, top gallery slide -->
+<header>
+	<div class="titulo-header">
+		<h1>Lorem Ipsum</h1>
+		<p>Fusce sed pellentesque sapien, 
+		   sit amet faucibus dolor.</p>
+		   <a href="index.html#gallery">&#8595;</a>
+	</div>
+	<div class="slide-container">
+		<div class="slide-header">  
+			<img src="./public/assets/header-1.png" alt="Imagem Teste">
 		</div>
-		<div class="flow">
-			<div>
-				<div class="mySlides"><img src="images/ProvaFrontEndJunior-Desk-real.png" alt="img-capa"></div>
-				<div class="mySlides"><img src="images/ProvaFrontEndJunior-Desk-real-copia.png" alt="img-capa"></div>
-				<div class="mySlides"><img src="images/ProvaFrontEndJunior-Desk-real-copia2.png" alt="img-capa"></div>
-			</div>
-			<div class="slideBox">
-				<span class="dot" onclick="currentSlide(1)"></span>
-				<span class="dot" onclick="currentSlide(2)"></span>
-				<span class="dot" onclick="currentSlide(3)"></span>
-			</div>
-		</div>	
-	</header>
-	<!-- Main Start - Gallery 3 of 9 -->
-	<main role="main" class="main">
-		<a id="gallery"></a>
-		<div class="main-container">
-			<div class="mySlides2 fade">
-				<img src="images/ProvaFrontEndJunior-Desk-media.png" alt="img-peq">
-					<div class="text">
-						<h2>Lorem Ipsum</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque volutpat porta lectus, in hendrerit leo commodo a. In sed auctor nulla, vitae mollis enim. Etiam imperdiet sit amet urna sed tincidunt. Pellentesque vel feugiat diam. Donec accumsan lacus a semper iaculis.  </p>
-					</div>  
-				<img src="images/ProvaFrontEndJunior-Desk-media-2.png" alt="img-peq">
-					<div class="text2">
-						<h2>Lorem Ipsum</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque volutpat porta lectus, in hendrerit leo commodo a. In sed auctor nulla, vitae mollis enim. Etiam imperdiet sit amet urna sed tincidunt. Pellentesque vel feugiat diam. Donec accumsan lacus a semper iaculis.  </p>
-					</div>
-				<img src="images/ProvaFrontEndJunior-Desk-media-3.png" alt="img-peq">
-					<div class="text3">
-						<h2>Lorem Ipsum</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque volutpat porta lectus, in hendrerit leo commodo a. In sed auctor nulla, vitae mollis enim. Etiam imperdiet sit amet urna sed tincidunt. Pellentesque vel feugiat diam. Donec accumsan lacus a semper iaculis.  </p>
-					</div>
-			</div>
-			<div class="mySlides2 fade">
-				<img src="images/ProvaFrontEndJunior-Desk-media-4.png" alt="img-peq">
-					<div class="text">
-						<h2>Lorem Ipsum</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque volutpat porta lectus, in hendrerit leo commodo a. In sed auctor nulla, vitae mollis enim. Etiam imperdiet sit amet urna sed tincidunt. Pellentesque vel feugiat diam. Donec accumsan lacus a semper iaculis.  </p>
-					</div>  
-				<img src="images/ProvaFrontEndJunior-Desk-media-5.png" alt="img-peq"> 
-					<div class="text2">
-						<h2>Lorem Ipsum</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque volutpat porta lectus, in hendrerit leo commodo a. In sed auctor nulla, vitae mollis enim. Etiam imperdiet sit amet urna sed tincidunt. Pellentesque vel feugiat diam. Donec accumsan lacus a semper iaculis.  </p>
-					</div>
-				<img src="images/ProvaFrontEndJunior-Desk-media-6.png" alt="img-peq">
-					<div class="text3">
-						<h2>Lorem Ipsum</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque volutpat porta lectus, in hendrerit leo commodo a. In sed auctor nulla, vitae mollis enim. Etiam imperdiet sit amet urna sed tincidunt. Pellentesque vel feugiat diam. Donec accumsan lacus a semper iaculis.  </p>
-					</div>
-			</div>
-			<div class="mySlides2 fade">
-				<img src="images/ProvaFrontEndJunior-Desk-media-7.png" alt="img-peq">
-					<div class="text">
-						<h2>Lorem Ipsum</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque volutpat porta lectus, in hendrerit leo commodo a. In sed auctor nulla, vitae mollis enim. Etiam imperdiet sit amet urna sed tincidunt. Pellentesque vel feugiat diam. Donec accumsan lacus a semper iaculis.  </p>
-					</div>  
-				<img src="images/ProvaFrontEndJunior-Desk-media-8.png" alt="img-peq"> 
-					<div class="text2">
-						<h2>Lorem Ipsum</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque volutpat porta lectus, in hendrerit leo commodo a. In sed auctor nulla, vitae mollis enim. Etiam imperdiet sit amet urna sed tincidunt. Pellentesque vel feugiat diam. Donec accumsan lacus a semper iaculis.  </p>
-					</div>
-				<img src="images/ProvaFrontEndJunior-Desk-media-9.png" alt="img-peq">
-					<div class="text3">
-						<h2>Lorem Ipsum</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque volutpat porta lectus, in hendrerit leo commodo a. In sed auctor nulla, vitae mollis enim. Etiam imperdiet sit amet urna sed tincidunt. Pellentesque vel feugiat diam. Donec accumsan lacus a semper iaculis.  </p>
-					</div>
-			</div>
-			<a class="prev" onclick="plusS(-1)">&#8592;</a>
-			<a class="next" onclick="plusS(1)">&#8594;</a>
-		  </div>
-		<!-- Circular Image -->
-		<div class="second-mainContainer">
-			<div class="circle-image">
-				<img src="images/ProvaFrontEndJunior-Desk-media.png" alt="img-peq-circular">
-			</div>
-			<div class="bigText">
-				<h3>LOREM IPSUM</h3>
-				<p>Vestibulum facilisis, urna a pellentesque molestie, ligula metus lobortis ipsum, at cursus risus augue a nisi. Suspendisse risus lorem, varius sed nulla vel, dictum pharetra magna. Suspendisse porttitor nisi ut ex ullamcorper feugiat. 
-				<p>Quisque eget pharetra leo. Vivamus tempus, erat id dictum convallis, erat quam mattis ex, vel eleifend dolor purus quis ante. Mauris malesuada turpis in elit fermentum, at blandit dui dignissim. In in mi ullamcorper, viverra neque a, tincidunt libero. Morbi nulla arcu, lacinia eget nunc vel, vulputate iaculis felis. </p>
-				<p>Nunc consectetur lacus erat, eu scelerisque quam fringilla at. Aliquam ut ornare quam. Curabitur sagittis porta augue, eu convallis neque pharetra ut. Nam et interdum tellus. Nam tempor rutrum elit tempus hendrerit. Morbi suscipit euismod facilisis. Ut bibendum imperdiet arcu sed lacinia. </p>
-			</div>
+		<div class="slide-header">
+			<img src="./public/assets/header-2.png" alt="Imagem Teste">
 		</div>
-		<!-- Galleria Vertical -->
-		<div class="last-mainContainer">
-			<div id="open-gallery"> 
-				<div class="top-border-box first-gallery">
-					<h3>Lorem Ipsum</h3>
-					<a><i class="fa fa-arrow-down invert"></i></a>
-				</div>
-				<div class="vertical-gallery hidden " id="open-window">
-					<div class="container vertical-gall" >
-						<div class="display-gallery-title">
-							<h4>Lorem Ipsum</h4>
-							<a><i class="fa fa-arrow-up work-icon-image"></i></a>
-						</div>
-						<div class="gallery-content">
-							<div class="left-side imagens-peq">
-								<img src="images/ProvaFrontEndJunior-Desk-media.png" 
-								alt="img-peq">
-							</div>
-							<div class="right-side">		
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet 
-									malesuada lorem eget pulvinar. Donec nisl augue, scelerisque in nunc a, gravida 
-									laoreet tellus. </p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div id="open-second-gallery">
-				<div class="top-border-box">
-					<h3>Lorem Ipsum</h3>
-					<a><i class="fa fa-arrow-down invert"></i></a>
-				</div>
-				<div class="vertical-gallery sc hidden" id="open-sec-window">
-					<div class="container vertical-gall" >
-						<div class="display-gallery-title">
-							<h4>Lorem Ipsum</h4>
-							<a><i class="fa fa-arrow-up work-icon-image"></i></a>
-						</div>
-						<div class="gallery-content">
-							<div class="left-side imagens-peq">
-								<img src="images/ProvaFrontEndJunior-Desk-media.png" 
-								alt="img-peq">
-							</div>
-							<div class="right-side">		
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet 
-									malesuada lorem eget pulvinar. Donec nisl augue, scelerisque in nunc a, gravida 
-									laoreet tellus. </p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div id="open-third-gallery">
-				<div class="top-border-box">
-					<h3>Lorem Ipsum</h3>
-					<a><i class="fa fa-arrow-down invert"></i></a>
-				</div>
-				<div class="vertical-gallery sc hidden" id="open-th-window">
-					<div class="container vertical-gall" >
-						<div class="display-gallery-title">
-							<h4>Lorem Ipsum</h4>
-							<a><i class="fa fa-arrow-up work-icon-image"></i></a>
-						</div>
-						<div class="gallery-content">
-							<div class="left-side imagens-peq">
-								<img src="images/ProvaFrontEndJunior-Desk-media.png" 
-								alt="img-peq">
-							</div>
-							<div class="right-side">		
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet 
-									malesuada lorem eget pulvinar. Donec nisl augue, scelerisque in nunc a, gravida 
-									laoreet tellus. </p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div id="open-fourth-gallery">
-				<div class="top-border-box border-bottom">
-					<h3>Lorem Ipsum</h3>
-					<a><i class="fa fa-arrow-down invert"></i></a>
-				</div>
-				<div class="vertical-gallery sc hidden" id="open-fourth-window">
-					<div class="container vertical-gall" >
-						<div class="display-gallery-title">
-							<h4>Lorem Ipsum</h4>
-							<a><i class="fa fa-arrow-up work-icon-image"></i></a>
-						</div>
-						<div class="gallery-content">
-							<div class="left-side imagens-peq">
-								<img src="images/ProvaFrontEndJunior-Desk-media.png" 
-								alt="img-peq">
-							</div>
-							<div class="right-side">		
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet 
-									malesuada lorem eget pulvinar. Donec nisl augue, scelerisque in nunc a, gravida 
-									laoreet tellus. </p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+		<div class="slide-header">
+			<img src="./public/assets/header-3.png" alt="Imagem Teste">
 		</div>
-		<!-- Formulário at the bottom -->
-		<div class="form-box">
-			<form class="sign-up">
-				<label for="firstName" id="nome"> 
-				  <input type="text" name="first-name" 
-				  placeholder="*Nome: Informe seu nome" required>
-				</label>
-				  <div class="middle-form">
-					<label for="email"></label>
-						<input type="email" name="second-name" 
-						placeholder="*E-mail: Informe seu email" id="email" required>
-					<label for="telefone"> </label>
-						<input type="tel" name="telefone" 
-						placeholder="*Telefone: (__)____-____" id="telefone" required>
-				</div>
-				<label for="mensagem"> </label>
-					<input type="textarea" class="mensagem" name="mensagem" 
-					placeholder="*Mensagem: Escreva aqui" required>
-				<div class="button">
-					<button type="submit"> Enviar</button>
-				</div>
-			  </form>
+	</div>
+	<div class="slide-dots"> 
+		<span class="dot" onclick="slide(1)"></span>
+		<span class="dot" onclick="slide(2)"></span>
+		<span class="dot" onclick="slide(3)"></span>	
+	</div>
+</header>
+
+<!-- Main Start Point -->
+<main role="main" class="main">
+<!-- Slide Gallery -->
+<a id="gallery"></a>
+<div class="slider">
+	<a class="left" onclick="nextSlide(-1)">&#10094;</a>
+	<div class="slide-container-main imagens-grid">
+		<div class="slide">  
+			<img src="./public/assets/img-teste.png" alt="Imagem Teste">
+			<h2>Lorem Ipsum</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque volutpat porta lectus, in hendrerit leo commodo a. In sed auctor nulla, vitae mollis enim. Etiam imperdiet sit amet urna sed tincidunt. Pellentesque vel feugiat diam. Donec accumsan lacus a semper iaculis.  </p>
 		</div>
-	</main>
-	<footer>
-		<div>
-			<p>LOREM IPSUM</p>
+		<div class="slide">
+			<img src="./public/assets/img-teste-2.png" alt="Imagem Teste">
+			<h2>Lorem Ipsum</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque volutpat porta lectus, in hendrerit leo commodo a. In sed auctor nulla, vitae mollis enim. Etiam imperdiet sit amet urna sed tincidunt. Pellentesque vel feugiat diam. Donec accumsan lacus a semper iaculis.  </p>
 		</div>
-	</footer>
-	<script type="text/javascript" src="js.js"></script>
-	<script type="text/javascript" src="topGallery.js"></script>
-	<script type="text/javascript" src="teste.js"></script>
+		<div class="slide">
+			<img src="./public/assets/img-teste-3.png" alt="Imagem Teste">
+			<h2>Lorem Ipsum</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque volutpat porta lectus, in hendrerit leo commodo a. In sed auctor nulla, vitae mollis enim. Etiam imperdiet sit amet urna sed tincidunt. Pellentesque vel feugiat diam. Donec accumsan lacus a semper iaculis.  </p>		
+		</div>
+	</div>
+
+	<div class="slide-container-main imagens-grid">
+		<div class="slide">  
+			<img src="./public/assets/img-teste.png" alt="Imagem Teste">
+			<h2>Lorem Ipsum</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque volutpat porta lectus, in hendrerit leo commodo a. In sed auctor nulla, vitae mollis enim. Etiam imperdiet sit amet urna sed tincidunt. Pellentesque vel feugiat diam. Donec accumsan lacus a semper iaculis.  </p>
+		</div>
+		<div class="slide">
+			<img src="./public/assets/img-teste-2.png" alt="Imagem Teste">
+			<h2>Lorem Ipsum</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque volutpat porta lectus, in hendrerit leo commodo a. In sed auctor nulla, vitae mollis enim. Etiam imperdiet sit amet urna sed tincidunt. Pellentesque vel feugiat diam. Donec accumsan lacus a semper iaculis.  </p>
+		</div>
+		<div class="slide">
+			<img src="./public/assets/img-teste-3.png" alt="Imagem Teste">
+			<h2>Lorem Ipsum</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque volutpat porta lectus, in hendrerit leo commodo a. In sed auctor nulla, vitae mollis enim. Etiam imperdiet sit amet urna sed tincidunt. Pellentesque vel feugiat diam. Donec accumsan lacus a semper iaculis.  </p>		
+		</div>
+	</div>
+	
+  	<a class="right" onclick="nextSlide(1)">&#10095;</a>
+
+	
+</div>
+
+<!-- Circular Image -->
+<div class="second-mainContainer">
+	<div class="circle-image">
+		<img src="./public/assets/img-teste.png" alt="Imagem Teste">
+	</div>
+	<div class="text">
+		<h3>LOREM IPSUM</h3>
+		<p>Vestibulum facilisis, urna a pellentesque molestie, ligula metus lobortis ipsum, at cursus risus augue a nisi. Suspendisse risus lorem, varius sed nulla vel, dictum pharetra magna. Suspendisse porttitor nisi ut ex ullamcorper feugiat. 
+		<p>Quisque eget pharetra leo. Vivamus tempus, erat id dictum convallis, erat quam mattis ex, vel eleifend dolor purus quis ante. Mauris malesuada turpis in elit fermentum, at blandit dui dignissim. In in mi ullamcorper, viverra neque a, tincidunt libero. Morbi nulla arcu, lacinia eget nunc vel, vulputate iaculis felis. </p>
+		<p>Nunc consectetur lacus erat, eu scelerisque quam fringilla at. Aliquam ut ornare quam. Curabitur sagittis porta augue, eu convallis neque pharetra ut. Nam et interdum tellus. Nam tempor rutrum elit tempus hendrerit. Morbi suscipit euismod facilisis. Ut bibendum imperdiet arcu sed lacinia. </p>
+	</div>
+</div>
+
+<!-- Accordion Gallery - 4 rows -->
+<div class="last-mainContainer">
+	<div class="box-accordion">
+		<button class="accordion first-button line">Lorem Ipsum <span>&darr;</span></button>
+			<div class="topBorderBox">
+				<nav class="window-title">Lorem Ipsum <span>&uarr;</span></nav>
+				<div class="window">
+					<img src="./public/assets/img-teste.png" alt="Imagem Teste">
+					<p>
+						Nam diam nisi, vulputate eget ligula ut, efficitur rutrum dui. 
+						In hac habitasse platea dictumst. Praesent gravida fermentum ligula, 
+						vel ullamcorper lacus cursus ut. Donec in velit tristique, dapibus 
+						enim eu, malesuada dui. Class aptent taciti sociosqu ad litora 
+						torquent per conubia nostra, per inceptos himenaeos.
+					</p>
+				</div>
+
+			</div>
+	
+		<button class="accordion line">Lorem Ipsum <span>&darr;</span></button>
+			<div class="topBorderBox">
+				<nav class="window-title">Lorem Ipsum <span>&uarr;</span></nav>
+					<div class="window">
+					<img src="./public/assets/img-teste.png" alt="Imagem Teste">
+					<p>
+						Nam diam nisi, vulputate eget ligula ut, efficitur rutrum dui. 
+						In hac habitasse platea dictumst. Praesent gravida fermentum ligula, 
+						vel ullamcorper lacus cursus ut. Donec in velit tristique, dapibus 
+						enim eu, malesuada dui. Class aptent taciti sociosqu ad litora 
+						torquent per conubia nostra, per inceptos himenaeos.
+					</p>
+				</div>
+			</div>
+
+		<button class="accordion line">Lorem Ipsum <span>&darr;</span></button>
+			<div class="topBorderBox">
+				<nav class="window-title">Lorem Ipsum <span>&uarr;</span></nav>
+				<div class="window">
+					<img src="./public/assets/img-teste.png" alt="Imagem Teste">
+					<p>
+						Nam diam nisi, vulputate eget ligula ut, efficitur rutrum dui. 
+						In hac habitasse platea dictumst. Praesent gravida fermentum ligula, 
+						vel ullamcorper lacus cursus ut. Donec in velit tristique, dapibus 
+						enim eu, malesuada dui. Class aptent taciti sociosqu ad litora 
+						torquent per conubia nostra, per inceptos himenaeos.
+					</p>
+				</div>
+			</div>
+
+		<button class="accordion last-button">Lorem Ipsum <span>&darr;</span></button>
+			<div class="topBorderBox">
+				<nav class="window-title">Lorem Ipsum <span>&uarr;</span></nav>
+				<div class="window">
+					<img src="./public/assets/img-teste.png" alt="Imagem Teste">
+					<p>
+						Nam diam nisi, vulputate eget ligula ut, efficitur rutrum dui. 
+						In hac habitasse platea dictumst. Praesent gravida fermentum ligula, 
+						vel ullamcorper lacus cursus ut. Donec in velit tristique, dapibus 
+						enim eu, malesuada dui. Class aptent taciti sociosqu ad litora 
+						torquent per conubia nostra, per inceptos himenaeos.
+					</p>
+				</div>
+			</div>
+
+	</div>	
+</div>
+
+<!-- Formulário Index -->
+<div class="form-box">
+	<form action="" class="form">
+		<fieldset>
+			<legend class="hidden-form">Form</legend>
+			<div class="field-group">
+				<div class="field nome">
+					<label for="name">*Nome: </label>
+					<input type="text" name="name" placeholder="Informe seu nome" required="required">
+				</div>
+			</div>
+			<div class="field-group">
+				<div class="field">
+					<label for="email">*E-mail: </label>
+					<input type="email" name="email" placeholder="Informe seu e-mail" required="required">
+				</div>
+				<div class="field">
+					<label for="tel">*Telefone: </label>
+					<input type="tel" name="tel" placeholder="(__) ____-____" required="required">
+				</div>
+			</div>
+			<div class="field-group">
+				<div class="field">
+				<label for="comment">*Mensagem: </label>
+					<textarea 
+						name="comment" 
+						id="comment" 
+						cols="30" 
+						rows="7"
+						placeholder="Escreva aqui..."
+						required="required">
+					</textarea>
+				</div>
+			</div>
+		<button>Enviar</button>
+			
+		</fieldset>
+	</form>
+</div>
+</main>
+
+<!-- Footer -->	
+<footer>
+	<div>
+		<a href="index.html#gallery">LOREM IPSUM</a>
+	</div>
+</footer>
+
+<!-- JavaScripts -->
+<script type="text/javascript" src="./public/scripts/top-slide.js"></script>
+<script type="text/javascript" src="./public/scripts/slide.js"></script>
+<script type="text/javascript" src="./public/scripts/accordion.js"></script>
+
 </body>
 </html>
