@@ -19,8 +19,8 @@
 		color: var(--bright);
 		padding: 0 7px 7px 7px;
 	}
-	header .flow{
-		margin-top: 7em;
+	header div.slide-container {
+		margin-top: 10em;
 	}
 }
 /* Slides  */
@@ -74,6 +74,23 @@
 		padding-right: 2em;
 	}
 }
+@media only screen and (max-width: 800px){
+	div.last-mainContainer div.window{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	div.window > img{ 
+		width: 70%;
+		margin-top: 1em;
+		margin-left: 0;
+	}
+	div.window > p{
+		margin-top: 2em;
+		width: 70%;
+		text-align: center;
+	}
+}
 
 /* Form */
 @media only screen and (max-width: 740px){
@@ -113,7 +130,7 @@
 		padding: 1em;
 	}
 	.form-box form fieldset button{
-		margin-left: 30%;
+		margin-left: 35%;
 		margin-bottom: 2em;
 	}
 }
