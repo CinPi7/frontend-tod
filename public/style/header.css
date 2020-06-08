@@ -45,7 +45,7 @@ header div.slide-container div.slide-header img{
 	width: 100%;
 	height: auto;
 	z-index: -1;
-	margin-top: -9em;
+	margin-top: -12em;
 }
 div.slide-dots span.dot{
 	cursor: pointer;
