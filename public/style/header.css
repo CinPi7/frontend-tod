@@ -33,7 +33,7 @@ header a:hover{
 	0%, 100% {
 	  color: var(--bright);
 	}
-	50% {
+	70% {
 	  color: var(--medium-dark);
 	}
   }

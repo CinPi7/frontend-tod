@@ -39,15 +39,72 @@
 		</div>
 	</div>
 	<div class="slide-dots"> 
-		<span class="dot" onclick="slide(1)"></span>
-		<span class="dot" onclick="slide(2)"></span>
-		<span class="dot" onclick="slide(3)"></span>	
+		<span class="dot" onclick="currentSlide(1)"></span>
+		<span class="dot" onclick="currentSlide(2)"></span>
+		<span class="dot" onclick="currentSlide(3)"></span>	
 	</div>
 </header>
 
 <!-- Main Start Point -->
 <main role="main" class="main">
-
+<div class="slides-show">
+	<div class="container imagens-grid">
+		<div class="slide">  
+			<div class="content">
+				<img src="./public/assets/img-teste-9.png" alt="Imagem Teste">
+				<h2>Lorem Ipsum</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque volutpat porta lectus, in hendrerit leo commodo a. In sed auctor nulla, vitae mollis enim. Etiam imperdiet sit amet urna sed tincidunt. Pellentesque vel feugiat diam. Donec accumsan lacus a semper iaculis.  </p>
+			</div>
+			<div class="content">
+				<img src="./public/assets/img-teste.png" alt="Imagem Teste">
+				<h2>Lorem Ipsum</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque volutpat porta lectus, in hendrerit leo commodo a. In sed auctor nulla, vitae mollis enim. Etiam imperdiet sit amet urna sed tincidunt. Pellentesque vel feugiat diam. Donec accumsan lacus a semper iaculis.  </p>
+			</div>
+			<div class="content">
+				<img src="./public/assets/img-teste-2.png" alt="Imagem Teste">
+				<h2>Lorem Ipsum</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque volutpat porta lectus, in hendrerit leo commodo a. In sed auctor nulla, vitae mollis enim. Etiam imperdiet sit amet urna sed tincidunt. Pellentesque vel feugiat diam. Donec accumsan lacus a semper iaculis.  </p>
+			</div>
+		</div>
+		<div class="slide">
+			<div class="content">
+				<img src="./public/assets/img-teste-3.png" alt="Imagem Teste">
+				<h2>Lorem Ipsum</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque volutpat porta lectus, in hendrerit leo commodo a. In sed auctor nulla, vitae mollis enim. Etiam imperdiet sit amet urna sed tincidunt. Pellentesque vel feugiat diam. Donec accumsan lacus a semper iaculis.  </p>
+			</div>
+			<div class="content">
+				<img src="./public/assets/img-teste-4.png" alt="Imagem Teste">
+				<h2>Lorem Ipsum</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque volutpat porta lectus, in hendrerit leo commodo a. In sed auctor nulla, vitae mollis enim. Etiam imperdiet sit amet urna sed tincidunt. Pellentesque vel feugiat diam. Donec accumsan lacus a semper iaculis.  </p>
+			</div>
+			<div class="content">
+				<img src="./public/assets/img-teste-5.png" alt="Imagem Teste">
+				<h2>Lorem Ipsum</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque volutpat porta lectus, in hendrerit leo commodo a. In sed auctor nulla, vitae mollis enim. Etiam imperdiet sit amet urna sed tincidunt. Pellentesque vel feugiat diam. Donec accumsan lacus a semper iaculis.  </p>
+			</div>
+		</div>
+		<div class="slide">
+			<div class="content">
+				<img src="./public/assets/img-teste-6.png" alt="Imagem Teste">
+				<h2>Lorem Ipsum</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque volutpat porta lectus, in hendrerit leo commodo a. In sed auctor nulla, vitae mollis enim. Etiam imperdiet sit amet urna sed tincidunt. Pellentesque vel feugiat diam. Donec accumsan lacus a semper iaculis.  </p>
+			</div>
+			<div class="content">
+				<img src="./public/assets/img-teste-7.png" alt="Imagem Teste">
+				<h2>Lorem Ipsum</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque volutpat porta lectus, in hendrerit leo commodo a. In sed auctor nulla, vitae mollis enim. Etiam imperdiet sit amet urna sed tincidunt. Pellentesque vel feugiat diam. Donec accumsan lacus a semper iaculis.  </p>
+			</div>
+			<div class="content">
+				<img src="./public/assets/img-teste-8.png" alt="Imagem Teste">
+				<h2>Lorem Ipsum</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque volutpat porta lectus, in hendrerit leo commodo a. In sed auctor nulla, vitae mollis enim. Etiam imperdiet sit amet urna sed tincidunt. Pellentesque vel feugiat diam. Donec accumsan lacus a semper iaculis.  </p>
+			</div>
+		</div>
+	</div>
+	
+	<a class="left" onclick="plusS(-1)">&#10094;</a>
+  	<a class="right" onclick="plusS(1)">&#10095;</a>
+</div>
 
 <!-- Circular Image -->
 <div class="second-mainContainer">
@@ -179,7 +236,6 @@
 
 <!-- JavaScripts -->
 <script type="text/javascript" src="./public/scripts/top-slide.js"></script>
-<script type="text/javascript" src="./public/scripts/slide.js"></script>
 <script type="text/javascript" src="./public/scripts/accordion.js"></script>
 
 </body>

@@ -24,17 +24,13 @@
 	}
 }
 /* Slides  */
-@media only screen and (max-width: 700px){
-    .mySlides3{
-        width: 50%;
-        overflow: hidden;
-    }
-    .mySlides2{
-        display: none;
-    }
-    .main-container{
-        display: none;
-    }
+@media only screen and (max-width: 1100px){
+    main div.slides-show{
+		display: none;
+	}
+	main div.container div.slide{
+		display: none;
+	}
 }
 /* Circular  */
 @media only screen and (max-width: 972px){

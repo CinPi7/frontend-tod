@@ -1,51 +1,45 @@
 /* Slide Gallery: three of nine */
-/* O slider pai tem tres filhos que vão de um lado para o outro
-   cada filho é feito de um grid com 3 fr */
-div.slider{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 1em 7em;
-    height: 500px;
-}
-div.slide-container-main{
-    display: none
-}
-div.slide-container-main div.slide{
-    width: auto;
+div.slides-show{
+    margin-bottom: 2em;
     height: auto;
-    margin: 1em;
-}
-.imagens-grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 5px;
-}
-.imagens-grid div.slide{
-    height: 180px;
+    width: 90%;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    text-align: center;
-    cursor: pointer;
+    justify-content: center; /* for the left and right arrows align */
 }
-.imagens-grid div.slide h2, p{
+div.container{
+    width: 100%;
+    height: auto;
+    margin: 2em 5em; 
+}
+div.container div.slide{
+    display: none;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2px;
+}
+div.slide div.content{
+    margin-left: 1em;
+    width: 100%;
+}
+div.slide h2, p{
     flex: 1;
     display: flex;
+    justify-content: center;
     align-items: center;
     margin-top: 12px;
     color: var(--bright);
+    text-align: center;
+    margin-left: 3em;
 }
-.imagens-grid div.slide p{
+div.slide p{
     font-size: 15px;
-    margin-bottom: 2em;
+    margin-left: 5em;
 }
-.imagens-grid div.slide img{
+div.slide img{
     width: 100%;
-    height: 100%;
+    height: 50%;
     border: 8px solid var(--medium-gray);
-    margin: 0 2em 0;
+    margin: 2em 2em 0;
 }
 /* left and right arrows */
 div .left,
@@ -56,10 +50,10 @@ div .right{
     border-radius: 0 5px 5px 0;
     font-size: 35px;
     user-select: none;
-    margin-top: -5.5em;
+    margin-top: -5em;
 }
 div .right{
-    right: 2em;
+    right: 1em;
     float: right;
 }
 div .left{
