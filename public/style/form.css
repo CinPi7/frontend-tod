@@ -4,15 +4,9 @@
     margin-top: 0;
 }
 .form-box form{
-    padding: 64px; 
+    padding: 2em 4.8em;
     margin: 0 auto;
     width: 100%;
-    max-width: 1325px;
-    flex: 1;
-}
-.form-box form .form{
-    border: none;
-    margin: 0 85px 0;
 }
 .form-box form fieldset {
     border: 0;
@@ -65,9 +59,14 @@
 .form-box form .field-group .field + .field{ 
     margin-left: 24px;
 }
-.form-box form fieldset button{
-    width: 120px;
-    height: 56px;
+div .send-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div .send-form button{
+    width: 100px;
+    height: 50px;
     background-color: var(--bright);
     box-shadow: 1px 1px 5px var(--lighter-gray);
     color: var(--half-dark);
@@ -78,9 +77,6 @@
     text-transform: uppercase;
     border: 0;
     transition: background-color 50ms;
-    margin-top: 1em;
-    margin-left: 45%;
-    margin-right: 50%;
 }
 .form-box form fieldset button:hover{
     background-color: var(--lighter-gray);

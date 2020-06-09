@@ -167,18 +167,7 @@
 	}
 }
 
-
-/* Accordion Gallery*/
-@media only screen and (max-width: 420px){
-	body{
-		margin-right: 0;
-		padding-right: 0;
-	}
-	div.last-mainContainer div.box-accordion{
-		width: 90%;
-		margin-left: 1.5em;
-	}
-}
+/* Accordion Gallery */
 @media only screen and (max-width: 800px){
 	div.last-mainContainer div.window{
 		display: flex;
@@ -196,66 +185,41 @@
 		text-align: center;
 	}
 }
-
-/* Form */
-@media only screen and (max-width: 740px){
-	.form-box form div.field-group > div.nome{
-		padding-top: 1em;
-	}
-	.form-box form .field-group{
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		width: 100%;
-		flex: 1;
-	}
-	.form-box form .field{
-		width: 100%;
-		flex: 1;
-	}
-	.form-box form .field-group .field + .field{ 
-		margin-left: 0;
-	}
-	.form-box form fieldset button{
-		margin-left: 37%;
-	}
-}
-@media only screen and (max-width: 560px){
-	form-box form .field input, textarea{
-		width: 100%;
-		flex: 1;
-	}
-	.form-box form fieldset button{
-		margin-left: 33%;
-	}
-}
-
-
-/*
 @media only screen and (max-width: 420px){
 	body{
 		margin-right: 0;
 		padding-right: 0;
 	}
-	.form-box form{
-		padding: 0;
-		padding-top: 2em;
-	}
-	.form-box form .form{
-		margin: 0;
-	}
-	.form-box form .field input{
-		margin: 0 1em;
-	}
-	.form-box form .field textarea{
-		margin: 0 0;
-		margin-left: 1em;
-		width: 93%;
-	}
-	.form-box form fieldset button{
-		margin-left: 32%;
-		margin-bottom: 2em;
+	div.last-mainContainer div.box-accordion{
+		width: 90%;
+		margin-left: 1.5em;
 	}
 }
-*/
+
+/* Form */
+@media only screen and (max-width: 730px){
+	.form-box form .field-group{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+	}
+	.form-box form .field {
+		width: 100%;
+		margin-left: 2em;
+		margin-right: 2em;
+	}
+	.form-box form .field input, textarea{
+		width: 100%;
+	}
+	.form-box form .field-group .field + .field{ 
+		margin-left: 2em;
+	}
+}
+@media only screen and (max-width: 420px){
+	.form-box form {
+		padding: 1.5em 1em 1em 1.3em;
+		
+	}
+}
 
