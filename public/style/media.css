@@ -1,4 +1,6 @@
 /* MEDIA QUERY FOR FORM */
+
+
 /* header and Slide at the top */
 @media only screen and (max-width: 770px){
 	header .titulo-header {
@@ -64,6 +66,9 @@
 	}
 }
 @media only screen and (max-width: 670px){
+	body{
+		margin-right: 0;
+	}
 	div.slides-show div.container{
 		margin: 0;
 	}
@@ -99,10 +104,10 @@
 		padding-top: 5em;
 	}
 }
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 418px){
 	div .left,
 	div .right{
-		padding-top: 5.5em;
+		padding-top: 4em;
 	}
 	div.slide img{
 		margin: 1em;
@@ -110,14 +115,26 @@
 	div.slide p{
 		margin-left: 3em;
 	}
-	div .left, div .right{
-		padding-top: 7em;
-	}
 	div .left{
 		left: -0.5em;	
 	}
 	div .right{
 		right: -1.5em;
+	}
+}
+@media only screen and (max-width: 392px){
+	body{
+		margin-right: 0;
+	}
+	div .left,
+	div .right{
+		padding-top: 5em;
+	}
+}
+@media only screen and (max-width: 300px){
+	div .left,
+	div .right{
+		padding-top: 6em;
 	}
 }
 	
@@ -139,24 +156,27 @@
 		padding: 0;
 	}
 	div.second-mainContainer {
-		padding: 2em 1em 2em 0;
+		padding: 2em 0 2em 0;
 	}
 	div.second-mainContainer .text p{
 		text-align: center;
+		padding-right: 2em;
 	}
 	div.second-mainContainer img{
 		margin-left: 15px;
-		height: 250px;
-		width: 250px;
 	}
 }
 
+
 /* Accordion Gallery*/
 @media only screen and (max-width: 420px){
+	body{
+		margin-right: 0;
+		padding-right: 0;
+	}
 	div.last-mainContainer div.box-accordion{
-		width: 100%;
-		margin: 0 0 0 1em;
-		padding-right: 2em;
+		width: 90%;
+		margin-left: 1.5em;
 	}
 }
 @media only screen and (max-width: 800px){
@@ -179,6 +199,9 @@
 
 /* Form */
 @media only screen and (max-width: 740px){
+	.form-box form div.field-group > div.nome{
+		padding-top: 1em;
+	}
 	.form-box form .field-group{
 		display: flex;
 		flex-direction: column;
@@ -198,9 +221,6 @@
 	}
 }
 @media only screen and (max-width: 560px){
-	.form-box form div.field-group > div.nome{
-		padding-top: 1em;
-	}
 	form-box form .field input, textarea{
 		width: 100%;
 		flex: 1;
@@ -209,13 +229,33 @@
 		margin-left: 33%;
 	}
 }
+
+
+/*
 @media only screen and (max-width: 420px){
+	body{
+		margin-right: 0;
+		padding-right: 0;
+	}
 	.form-box form{
+		padding: 0;
+		padding-top: 2em;
+	}
+	.form-box form .form{
 		margin: 0;
-		padding: 1em;
+	}
+	.form-box form .field input{
+		margin: 0 1em;
+	}
+	.form-box form .field textarea{
+		margin: 0 0;
+		margin-left: 1em;
+		width: 93%;
 	}
 	.form-box form fieldset button{
-		margin-left: 35%;
+		margin-left: 32%;
 		margin-bottom: 2em;
 	}
 }
+*/
+
