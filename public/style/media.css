@@ -1,5 +1,5 @@
 /* MEDIA QUERY FOR FORM */
-/* header */
+/* header and Slide at the top */
 @media only screen and (max-width: 770px){
 	header .titulo-header {
 		position: relative;
@@ -20,7 +20,7 @@
 		padding: 0 7px 7px 7px;
 	}
 	header div.slide-container {
-		margin-top: 10em;
+		margin-top: 12em;
 	}
 }
 /* Slides  */
@@ -32,15 +32,12 @@
 	div.content:nth-child(3) {
 		display: none;
 	}
-	div.slide div.content{
-		margin-left: 15%;
-	}
 	div.slide img{
-		width: 70%;
+		width: 90%;
 		height: 60%;
 	}
 	div.slide h2, p{
-		margin-right: 32%;
+		margin-right: 12%;
 	}
 }
 @media only screen and (max-width: 814px){
@@ -56,8 +53,8 @@
 	div .right{
 		position: relative;
 		float: bottom;
-		padding: 0.5em;
-		margin-top: 0.5em;
+		padding: 15px;
+		padding-top: 1em;
 	}
 	div .left{
 		left: 1em;	
@@ -66,7 +63,64 @@
 		right: -1em;
 	}
 }
-
+@media only screen and (max-width: 670px){
+	div.slides-show div.container{
+		margin: 0;
+	}
+	div.slide div.content{
+		margin: 0;
+		padding-left: 0;
+	}
+	div .left,
+	div .right{
+		padding-top: 3em;
+	}
+	div.slide img{
+		margin: 2em 2em 1em;
+		padding-left: 0;
+		width: 100%;
+	}
+	div.slide h2, p{
+		margin-right: 5%;
+	}
+}
+@media only screen and (max-width: 525px){
+	div.slide img{
+		margin: 2em 1.5em 1em;
+	}
+	div .left,
+	div .right{
+		padding-top: 4em;
+	}
+}
+@media only screen and (max-width: 450px){
+	div .left,
+	div .right{
+		padding-top: 5em;
+	}
+}
+@media only screen and (max-width: 450px){
+	div .left,
+	div .right{
+		padding-top: 5.5em;
+	}
+	div.slide img{
+		margin: 1em;
+	}
+	div.slide p{
+		margin-left: 3em;
+	}
+	div .left, div .right{
+		padding-top: 7em;
+	}
+	div .left{
+		left: -0.5em;	
+	}
+	div .right{
+		right: -1.5em;
+	}
+}
+	
 /* Circular  */
 @media only screen and (max-width: 972px){
 	div.second-mainContainer{

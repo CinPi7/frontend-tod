@@ -10,12 +10,12 @@ div.slides-show{
 div.container{
     width: 100%;
     height: auto;
-    margin: 2em 5em; 
+    margin: 3em 3em 3em 6em; 
 }
 div.container div.slide{
     display: none;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 2px;
+    gap: 5px;
 }
 div.slide div.content{
     margin-left: 1em;
@@ -50,14 +50,14 @@ div .right{
     border-radius: 0 5px 5px 0;
     font-size: 35px;
     user-select: none;
-    margin-top: -5em;
+    margin-top: -3em;
 }
 div .right{
-    right: 3em;
+    right: 1em;
     float: right;
 }
 div .left{
-    left: 2em;
+    left: 1em;
     float: left;
 }
 div .left:hover, .right:hover {
