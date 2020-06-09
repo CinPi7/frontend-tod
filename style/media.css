@@ -167,7 +167,6 @@
 	}
 }
 
-
 /* Accordion Gallery */
 @media only screen and (max-width: 800px){
 	div.last-mainContainer div.window{
@@ -223,62 +222,4 @@
 		
 	}
 }
-
-
-/*
-@media only screen and (max-width: 740px){
-	.form-box form div.field-group > div.nome{
-		padding-top: 1em;
-	}
-	.form-box form .field-group{
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		width: 100%;
-		flex: 1;
-	}
-	.form-box form .field{
-		width: 100%;
-		flex: 1;
-	}
-	.form-box form fieldset button{
-		margin-left: 37%;
-	}
-}
-@media only screen and (max-width: 560px){
-	form-box form .field input, textarea{
-		width: 100%;
-		flex: 1;
-	}
-	.form-box form fieldset button{
-		margin-left: 33%;
-	}
-}
-/*
-@media only screen and (max-width: 420px){
-	body{
-		margin-right: 0;
-		padding-right: 0;
-	}
-	.form-box form{
-		padding: 0;
-		padding-top: 2em;
-	}
-	.form-box form .form{
-		margin: 0;
-	}
-	.form-box form .field input{
-		margin: 0 1em;
-	}
-	.form-box form .field textarea{
-		margin: 0 0;
-		margin-left: 1em;
-		width: 93%;
-	}
-	.form-box form fieldset button{
-		margin-left: 32%;
-		margin-bottom: 2em;
-	}
-}
-*/
 
