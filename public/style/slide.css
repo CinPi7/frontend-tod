@@ -82,3 +82,6 @@ div .left:hover, .right:hover {
     from {opacity: .4}
     to {opacity: 1}
 }
+.dotx{
+    display: none;
+}
